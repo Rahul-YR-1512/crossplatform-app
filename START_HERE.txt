@@ -1,0 +1,14 @@
+NET4207 STOCK INVENTORY MANAGER
+
+1. Extract this folder.
+2. Open the stock_inventory_app folder in Android Studio.
+3. Open Terminal and run:
+   flutter create . --platforms=android
+   flutter pub get
+   flutter run
+
+The flutter create command refreshes the standard Android platform wrapper/configuration for your installed Flutter SDK.
+4. The app initially runs in Demo mode. Follow README.md section 3 to connect the lecturer's Firebase project.
+5. After `flutterfire configure`, set firebaseConfigured = true in lib/main.dart.
+
+Important: Firebase credentials/project options are intentionally not included because they must come from your lecturer's Firebase project.
